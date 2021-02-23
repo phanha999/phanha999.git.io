@@ -18,3 +18,6 @@ code {
 .category_link.active {
   color: #EE4D2D;
 }
+a.header_sort-link.active {
+  color: #EE4D2D!important;
+}

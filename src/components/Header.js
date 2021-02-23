@@ -304,10 +304,10 @@ class Header extends Component {
               {/* HEADER SEARCH END */}
             </div>
             <ul className="header_sort-list">
-              <li className="header_sort-item header_sort-active"><a href="/" className="header_sort-link">Phổ biến</a></li>
-              <li className="header_sort-item"><a href="/" className="header_sort-link">Mới nhất</a></li>
-              <li className="header_sort-item"><a href="/" className="header_sort-link">Bán chạy</a></li>
-              <li className="header_sort-item"><a href="/" className="header_sort-link">Giá</a></li>
+              <li className="header_sort-item"><NavLink to="/home" className="header_sort-link">Phổ biến</NavLink></li>
+              <li className="header_sort-item"><NavLink to="/new" className="header_sort-link">Mới nhất</NavLink></li>
+              <li className="header_sort-item"><NavLink to="/sale" className="header_sort-link">Bán chạy</NavLink></li>
+              <li className="header_sort-item"><NavLink to="/trend" className="header_sort-link">Giá</NavLink></li>
             </ul>
           </header>
           
