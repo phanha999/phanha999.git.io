@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.home_filter-btnMy.btn.active {
+  background-color: #EE4D2D;
+  color: white;
+}
+.category_link.active {
+  color: #EE4D2D;
+}
